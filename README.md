@@ -69,15 +69,7 @@
 
 
 
-## Supported Service Checks
-   - Implementation is very simple, with the following resource/service checks generated:
-     - Generic out-of-band interfaces *(ping, ssh, http)*
-     - Generic Linux servers *(ping, ssh, load, users, procs, uptime, disk space, swap,)*
-     - [ELK servers](https://github.com/sadsfae/ansible-elk) *(same as servers plus elasticsearch and Kibana)*
-     - Elasticsearch *(same as servers plus TCP/9200 for elasticsearch)*
-     - Webservers *(same as servers plus 80/TCP for webserver)*
-     - DNS Servers *(same as servers plus UDP/53 for DNS)*
-     
+    
     
     
  ## Ansible-playbook(Visual-Code  
