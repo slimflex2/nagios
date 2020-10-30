@@ -85,7 +85,7 @@ Nagios is an open source monitoring system for computer systems. It was designed
    - Navigate to the server at https://yourhost/nagios
    - Default login is ```nagiosadmin / changeme``` unless you changed it in ```install/group_vars/all.yml```
 
-## Files
+## Ansible File Hierarchy
 
 ```
 .
@@ -95,8 +95,8 @@ Nagios is an open source monitoring system for computer systems. It was designed
 │   │   └── all.yml
 │   ├── nagios.yml
 │   └── roles
-│       ├── firewall
-│       │   └── tasks
+│       |
+│       └── tasks
 │       │       └── main.yml
 │       ├── firewall_client
 │       │   └── tasks
