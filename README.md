@@ -49,8 +49,10 @@ Nagios is an open source monitoring system for computer systems. It was designed
 
 
 
+ ![](images/Screenshot%20(90).png)
 
 
+![](images/Screenshot%20(91).png)
 
 
 
