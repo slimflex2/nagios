@@ -21,7 +21,32 @@ Nagios is an open source monitoring system for computer systems. It was designed
 * ./fullinstall
 * Copy and paste IP address into browser 
 
-![](images/Screenshot(81).png)
+ ![](/images/Screenshot%20(81).png)
+  * welcome page 
+  
+ 
+ 
+ ![](images/Screenshot%20(82).png)
+ 
+ 
+ ![](images/Screenshot%20(83).png)
+ 
+ 
+ * fill out login information
+ 
+ 
+ ![](images/Screenshot%20(85).png)
+ 
+ 
+ ![](images/Screenshot%20(87)_LI.jpg)
+ 
+ 
+ ![](images/Screenshot%20(88).png)
+
+
+ ![](images/Screenshot%20(89).png)
+ 
+
 
 
 
