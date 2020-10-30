@@ -1,10 +1,7 @@
 ansible-nagios
 ==============
-Playbook for setting up the Nagios monitoring server and clients (CentOS/RHEL/Fedora/FreeBSD)
 
-![Nagios](/image/ansible-nagios.png?raw=true)
-
-[![CI](https://travis-ci.org/sadsfae/ansible-nagios.svg?branch=master)](https://travis-ci.org/sadsfae/ansible-nagios)
+Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems. For example, Nagios can monitor memory usage, disk usage, microprocessor load, the number of currently running processes and log files. Originally called NetSaint and released in 1999, Nagios was developed by Ethan Galstad and subsequently refined by numerous contributors as an open source project
 
 ## What does it do?
    - Automated deployment of Nagios Server on CentOS7 or RHEL7
@@ -15,7 +12,24 @@ Playbook for setting up the Nagios monitoring server and clients (CentOS/RHEL/Fe
      * Generates most of the other configs based on jinja2 templates
      * Wraps Nagios in SSL via Apache
      * Sets up proper firewall rules (firewalld or iptables-services)
-     * This is also available via [Ansible Galaxy](https://galaxy.ansible.com/sadsfae/ansible-nagios/)
+## How do I manually install Nagiosxi?
+cd /tmp 
+yum install wget 
+wget https://assets.nagios.com/downloads/nagiosxi/xi-latest.
+tar.gz tar xzf xi-latest.tar.gz 
+cd nagiosxi
+./fullinstall
+Copy and paste IP address into browser 
+
+
+
+
+
+
+
+
+
+
 
 ## How do I use it?
    - Add your nagios server under `[nagios]` in `hosts` inventory
@@ -24,12 +38,7 @@ Playbook for setting up the Nagios monitoring server and clients (CentOS/RHEL/Fe
    - Run the playbook.  Read below for more details if needed.
 
 ## Requirements
-   - RHEL7 or CentOS7 for Nagios server only.
-   - RHEL6/7/8, CentOS6/7/8, Fedora or FreeBSD for the NRPE Nagios client
-   - If you require SuperMicro server monitoring via IPMI (optional) then do the following
-     - Install```perl-IPC-Run``` and ```perl-IO-Tty``` RPMs for RHEL7.
-       - I've placed them [here](https://funcamp.net/w/rpm/el7/) if you can't find them, CentOS7 has them however.
-     - Modify ```install/group_vars/all.yml``` to include ```supermicro_enable_checks: true```
+ 
 
 ## Notes
    - Sets the ```nagiosadmin``` password to ```changeme```, you'll want to change this.
