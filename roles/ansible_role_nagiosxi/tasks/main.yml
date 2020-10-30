@@ -8,14 +8,6 @@
     update_cache: yes
   when: ansible_os_family == 'RedHat'
 
-- name: Install Prerequisites
-  yum:
-    name:
-    - nagiosxi
-    update_cache: yes
-  when: ansible_os_family == 'Debian'
-
-
 - name: copy to conf.dist
   shell: "cp -p snmpd.conf snmpd.conf.dist"
   args:
