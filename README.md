@@ -21,6 +21,9 @@ Nagios is an open source monitoring system for computer systems. It was designed
 
 
 ## How do I manually install Nagiosxi?
+* open port 22
+* open port 80
+* open port 161 for SNMP
 * cd /tmp 
 * yum install wget 
 * wget https://assets.nagios.com/downloads/nagiosxi/xi-latest.
@@ -68,23 +71,44 @@ Nagios is an open source monitoring system for computer systems. It was designed
 ## Supported Service Checks
    - Implementation is very simple, with the following resource/service checks generated:
      - Generic out-of-band interfaces *(ping, ssh, http)*
-     - Generic Linux servers *(ping, ssh, load, users, procs, uptime, disk space, swap, zombie procs)*
-     - Generic Linux servers with MDADM RAID (same as above)
+     - Generic Linux servers *(ping, ssh, load, users, procs, uptime, disk space, swap,)*
      - [ELK servers](https://github.com/sadsfae/ansible-elk) *(same as servers plus elasticsearch and Kibana)*
      - Elasticsearch *(same as servers plus TCP/9200 for elasticsearch)*
      - Webservers *(same as servers plus 80/TCP for webserver)*
      - DNS Servers *(same as servers plus UDP/53 for DNS)*
-     - DNS Servers with MDADM RAID (same as above)
-     - DNS Service Only (DNS and ICMP check)
-     - Jenkins CI *(same as servers plus TCP/8080 for Jenkins and optional nginx reverse proxy with auth)*
-     - FreeNAS Appliances *(ping, ssh, volume status, alerts, disk health)*
-     - Network switches *(ping, ssh)*
-     - IoT and ping-only devices *(ping)
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ ![](images/Screenshot%20(92).png)
 
-
-   - Navigate to the server at https://yourhost/nagios
-   - Default login is ```nagiosadmin / changeme``` unless you changed it in ```install/group_vars/all.yml```
-
+    
+    
+    
+ 
+ ![](images/Screenshot%20(93).png)
+ 
+ 
+ 
+ 
+ 
+ ![](images/Screenshot%20(94).png)
+    
+    
+    
+    
+    
 ## Ansible File Hierarchy
 
 ```
