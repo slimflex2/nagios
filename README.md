@@ -1,7 +1,8 @@
-ansible-nagios
+Ansible-NagiosXi
 ==============
 
-Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems. For example, Nagios can monitor memory usage, disk usage, microprocessor load, the number of currently running processes and log files. it is a powerful monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes. Originally called NetSaint and released in 1999, Nagios was developed by Ethan Galstad and subsequently refined by numerous contributors as an open source project
+      Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems. For example, Nagios can monitor memory usage, disk usage, microprocessor load, the number of currently running processes and log files.
+      it is a powerful monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes. Originally called NetSaint and released in 1999, Nagios was developed by Ethan Galstad and subsequently refined by numerous contributors as an open source project
 
 ## What does it do?
    - Automated deployment of Nagios Server on CentOS7 or RHEL7
