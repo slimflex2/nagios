@@ -13,13 +13,13 @@ Nagios is an open source monitoring system for computer systems. It was designed
      * Wraps Nagios in SSL via Apache
      * Sets up proper firewall rules (firewalld or iptables-services)
 ## How do I manually install Nagiosxi?
-cd /tmp 
-yum install wget 
-wget https://assets.nagios.com/downloads/nagiosxi/xi-latest.
-tar.gz tar xzf xi-latest.tar.gz 
-cd nagiosxi
-./fullinstall
-Copy and paste IP address into browser 
+* cd /tmp 
+* yum install wget 
+* wget https://assets.nagios.com/downloads/nagiosxi/xi-latest.
+* tar.gz tar xzf xi-latest.tar.gz 
+* cd nagiosxi
+* ./fullinstall
+* Copy and paste IP address into browser 
 
 
 
