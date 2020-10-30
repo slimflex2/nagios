@@ -34,7 +34,7 @@
 ##  NagiosXi Webpage
 
  ![](/images/Screenshot%20(81).png)
-  * welcome page 
+## welcome page 
   
  
  
